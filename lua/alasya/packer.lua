@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
 		  ts_update()
 	  end,}
       use("mbbill/undotree")
+  use('ThePrimeagen/harpoon')
 use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v3.x',
