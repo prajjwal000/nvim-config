@@ -1,5 +1,6 @@
 return {
     "folke/tokyonight.nvim",
+    "ThePrimeagen/vim-be-good",
 
     {
         "mbbill/undotree",
