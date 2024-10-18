@@ -1,7 +1,7 @@
 vim.keymap.set('n', '<leader>dc',":lua require('dap').continue()<CR>" )
 vim.keymap.set('n', '<leader>s',":lua require('dap').step_over()<CR>" )
 vim.keymap.set('n', 's',":lua require('dap').step_into()<CR>" )
-vim.keymap.set('n', '<leader>db',":lua require('dap').step_out()<CR>" )
+vim.keymap.set('n', '<leader>e',":lua require('dap').step_out()<CR>" )
 vim.keymap.set('n', '<Leader>b',":lua require('dap').toggle_breakpoint()<CR>" )
 vim.keymap.set('n', '<Leader>B',":lua require('dap').set_breakpoint(vim.fn.input('Breakpoint message: '))<CR>" )
 vim.keymap.set('n', '<Leader>lp',":lua require('dap').set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>" )
